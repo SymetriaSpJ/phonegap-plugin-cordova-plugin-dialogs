@@ -52,7 +52,7 @@ module.exports = {
      * @param {Array} buttonLabels          Array of the labels of the buttons (default: ['OK', 'Cancel'])
      */
     confirm: function(message, resultCallback, title, buttonLabels) {
-        var _title = (typeof title === "string" ? title : "Confirm");
+        var _title = (typeof title === "string" ? title : "");
         var _buttonLabels = (buttonLabels || ["OK", "Cancel"]);
 
         // Strings are deprecated!
