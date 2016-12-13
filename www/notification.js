@@ -48,7 +48,7 @@ module.exports = {
      *
      * @param {String} message              Message to print in the body of the alert
      * @param {Function} resultCallback     The callback that is called when user clicks on a button.
-     * @param {String} title                Title of the alert dialog (default: Confirm)
+     * @param {String} title                Title of the alert dialog (default: "")
      * @param {Array} buttonLabels          Array of the labels of the buttons (default: ['OK', 'Cancel'])
      */
     confirm: function(message, resultCallback, title, buttonLabels) {
